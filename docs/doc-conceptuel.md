@@ -158,3 +158,7 @@ Aucun bouton "on/off" logiciel n'existe : la mise sous/hors tension se fait par 
 - Affichage d'un meilleur score / historique en mode Jeu.
 - Mode "endless" en mode Jeu : séquences de longueur croissante sans limite de niveaux.
 - Export/import de mélodies enregistrées via le port série.
+
+## 7. Outils et assistance
+
+Le code du sketch (`piano_diatonique.ino`, `i2c_scanner.ino`) est le fruit du travail de l'auteur. Une IA (Claude) a été sollicitée à deux titres pendant le projet : pour la rédaction et la mise en forme de cette documentation (README, dossier de conception, documentation technique), et ponctuellement pendant le développement pour du débogage et des vérifications — par exemple la validation des notes des mélodies préchargées du mode Sons.

@@ -5,6 +5,7 @@ Jouet musical électronique sur Arduino Uno : un piano diatonique 8 notes avec �
 ## Sommaire
 
 - [Fonctionnalités](#fonctionnalités)
+- [Aperçu en photos](#aperçu-en-photos)
 - [Matériel nécessaire](#matériel-nécessaire)
 - [Câblage rapide](#câblage-rapide)
 - [Installation](#installation)
@@ -25,6 +26,18 @@ Jouet musical électronique sur Arduino Uno : un piano diatonique 8 notes avec �
 **🎶 Musique de fond** — un petit arpège tourne en boucle au menu principal tant qu'aucun mode n'est lancé ; un bouton dédié le met en pause/relance à la demande.
 
 **8 LED synchronisées** — une par bouton, pilotées par un registre à décalage, s'allument avec chaque note jouée (par l'utilisateur ou par l'Arduino).
+
+## Aperçu en photos
+
+| Montage complet (breadboard) | Mode Piano | Mode Jeu — niveau 1 |
+|---|---|---|
+| ![Montage complet sur breadboard](img/photo_5803038190779175648_y.jpg) | ![Écran du mode Piano](img/photo_5803038190779175649_y.jpg) | ![Écran du mode Jeu, niveau 1, LED allumée](img/photo_5803038190779175651_y.jpg) |
+
+| Mode Sons — lecture d'une mélodie | Mode Sons — enregistrement |
+|---|---|
+| ![Lecture de la mélodie Anniversaire](img/photo_5803038190779175656_y.jpg) | ![Enregistrement d'une mélodie, emplacement 1](img/photo_5803038190779175658_y.jpg) |
+
+D'autres photos du montage (les 3 mélodies préchargées, la lecture d'un enregistrement...) sont disponibles dans [`img/`](img).
 
 ## Matériel nécessaire
 

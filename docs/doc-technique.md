@@ -180,3 +180,11 @@ Les tableaux d'enregistrement (`recDegree`, `recDurationTicks` : 3 × 30 × 2 oc
 | `playSong()` / `playAllSongs()` | Lecture du jukebox préchargé |
 | `recordNewSound()` / `playRecordedSlot()` / `playAllRecorded()` | Enregistrement et lecture des mélodies utilisateur |
 | `waitForButtonWithMusic()` / `playBgNoteAndListen()` | Musique de fond non bloquante au menu |
+
+## 13. Ressources externes
+
+Pour approfondir le fonctionnement du 74HC595 utilisé dans ce projet (§2 et §6) :
+
+- [74HC595 Shift Register – Interfacing with Arduino Uno](https://maker.pro/arduino/tutorial/74hc595-shift-register-interfacing-with-arduino-uno) (Maker Pro) — tutoriel d'introduction au registre à décalage : principe, câblage, exemple de code.
+- [Guide to shiftOut()](https://docs.arduino.cc/tutorials/communication/guide-to-shift-out/) (documentation officielle Arduino) — référence de la fonction `shiftOut()` utilisée dans `writeLeds()` (§6).
+- [Clarification and help with transistors in LED matrix](https://forum.arduino.cc/t/clarification-and-help-with-transistors-in-led-matrix/426561/40) (forum Arduino) — discussion sur le pilotage de LED via transistors, utile si le montage évolue vers plus de LED ou des LED plus gourmandes en courant que ce que le 74HC595 peut fournir directement.
